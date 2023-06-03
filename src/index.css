@@ -33,7 +33,8 @@
       background: var(--color-bg);
       color: var(--color-white);
 line-height: 1.7rem;
-background-image:url('./assets/bg-texture.png') ;
+
+ ;
     }
     .container{
       width: var(--container-width-lg);
