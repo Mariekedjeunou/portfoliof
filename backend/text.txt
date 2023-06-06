@@ -1,0 +1,7 @@
+username: mariekdjeunou
+password: yoCxJhW2FbEhOSaw
+
+
+mongodb+srv://mariekdjeunou:yoCxJhW2FbEhOSaw@reactbackendportfolio.kgdem1b.mongodb.net/
+
+mongodb+srv://mariekdjeunou:yoCxJhW2FbEhOSaw@reactbackendportfolio.kgdem1b.mongodb.net/?retryWrites=true&w=majority

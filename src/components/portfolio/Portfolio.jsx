@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import axios from 'axios';
 import "./portfolio.css";
 import img1 from "../../assets/img1.png";
 import img2 from "../../assets/img2.png";
@@ -76,6 +77,12 @@ export const Portfolio = () => {
       title:'Project 10'
     },
   ]
+   
+      const [data, setData] = useState([]);
+      
+      useEffect(()=> {
+        axios.get("")
+      })
   return (
     <section id="portfolio">
       <h5>My recent work</h5>
