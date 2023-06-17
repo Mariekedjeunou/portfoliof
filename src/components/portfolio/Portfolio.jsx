@@ -12,6 +12,10 @@ import img9 from "../../assets/img9.png";
 import ListPortfolio from "./listPortfolio";
 
 export const Portfolio = () => {
+  const [data, setData] = useState([]);
+      
+      useEffect(()=> {
+        axios.get("")
   const portfolioContent = [
     {
       image : img1,
@@ -78,10 +82,7 @@ export const Portfolio = () => {
     },
   ]
    
-      const [data, setData] = useState([]);
       
-      useEffect(()=> {
-        axios.get("")
       })
   return (
     <section id="portfolio">

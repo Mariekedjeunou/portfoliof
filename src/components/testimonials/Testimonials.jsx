@@ -6,11 +6,11 @@ import AV2 from "../../assets/img3.png";
 import AV3 from "../../assets/img4.png";
 import AV4 from "../../assets/img5.png";
 import AV5 from "../../assets/img6.png";
-
+import { Swiper, SwiperSlide } from 'swiper/react';
 // import Swiper core and required modules
 import { Pagination, Navigation, Scrollbar, A11y } from 'swiper';
 
-import { Swiper, SwiperSlide } from 'swiper/react';
+
 
 // Import Swiper styles
 import 'swiper/css';
