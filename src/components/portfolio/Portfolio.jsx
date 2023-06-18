@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+// import React, { useEffect, useState } from "react";
 import axios from 'axios';
 import "./portfolio.css";
 import img1 from "../../assets/img1.png";
@@ -12,10 +12,11 @@ import img9 from "../../assets/img9.png";
 import ListPortfolio from "./listPortfolio";
 
 export const Portfolio = () => {
-  const [data, setData] = useState([]);
+  // const [data, setData] = useState([]);
       
-      useEffect(()=> {
-        axios.get("")
+  //     useEffect(()=> {
+  //       axios.get("")
+  //     })
   const portfolioContent = [
     {
       image : img1,
@@ -83,7 +84,7 @@ export const Portfolio = () => {
   ]
    
       
-      })
+     
   return (
     <section id="portfolio">
       <h5>My recent work</h5>
