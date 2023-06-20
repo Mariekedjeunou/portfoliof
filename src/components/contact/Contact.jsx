@@ -41,7 +41,11 @@ const Contact = () => {
             <article className="contact__option">
               <FaFacebookF className="contact__option__icon" />
               <h4>Facebook</h4>
+
               <h5>Mariek Djeunou</h5>
+
+              <h5>Profile</h5>
+
               <a
                 href="https://facebook.com/profile.php?id=100071856189879"
                 target="_blank"
