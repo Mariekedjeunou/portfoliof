@@ -15,7 +15,7 @@ header{
     justify-content: center;
     
 }
-.header__socials{
+.header__social{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,7 +24,7 @@ header{
     left: 0;
     bottom: 3rem;
     }
-    .header__socials::after{ /*the after tag help us to draw the vertical line we have
+    .header__social::after{ /*the after tag help us to draw the vertical line we have
     after the social icons*/
     content: '';
     width: 1px;

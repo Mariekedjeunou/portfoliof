@@ -1,7 +1,7 @@
 import React from 'react'
 import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
-import {AiOutlineLinkedin} from 'react-icons/ai'
+import {FaFacebookF} from 'react-icons/fa'
 import {BsWhatsapp} from 'react-icons/bs'
 import {useRef} from 'react'
 import emailjs from 'emailjs-com'
@@ -32,7 +32,7 @@ const Contact = () => {
               <h4>Email</h4>
               <h5>myEmail@gmail.com</h5>
               <a
-                href="mailto:aldenovpoutine99@gmail.com"
+                href="mailto:mariekdjeunou@gmail.com"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -41,15 +41,15 @@ const Contact = () => {
             </article>
 
             <article className="contact__option">
-              <AiOutlineLinkedin className="contact__option__icon" />
-              <h4>LinkedIn</h4>
+              <FaFacebookF className="contact__option__icon" />
+              <h4>Facebook</h4>
               <h5>Profile</h5>
               <a
-                href="https://www.linkedin.com/in/brown-djomo-844b96164/"
+                href="https://facebook.com/profile.php?id=100071856189879"
                 target="_blank"
                 rel="noreferrer"
               >
-                Tape me on LinkedIn
+                Tape me on Facebook
               </a>
             </article>
 
@@ -58,7 +58,7 @@ const Contact = () => {
               <h4>Whatsapp</h4>
               <h5>Direct message</h5>
               <a
-                href="https://web.whatsapp.com/send?phone=+237657268549"
+                href="https://wa.me/+237697724045"
                 target="_blank"
                 rel="noreferrer"
               >

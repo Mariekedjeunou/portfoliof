@@ -1,5 +1,5 @@
 import React from 'react'
-import { BsLinkedin } from 'react-icons/bs';
+import { BsWhatsapp } from 'react-icons/bs';
 import {FaGithub} from 'react-icons/fa'
 import {FaFacebookF} from 'react-icons/fa'
 import { CgTwitter } from "react-icons/cg";
@@ -8,13 +8,13 @@ import './footer.css'
 const Footer = () => {
     return (
       <div className="footer__container">
-        <a href="#" className="footer__logo">
+        <a href="#Header" className="footer__logo">
          Marieke Djeunou
         </a>
 
         <ul className="permalinks">
           <li>
-            <a href="#">Home</a>
+            <a href="#Header">Home</a>
           </li>
           <li>
             <a href="#about">About</a>
@@ -37,16 +37,17 @@ const Footer = () => {
         </ul>
 
         <div className="footer__media">
-          <a href="https://linkedin.com" target="blank">
-            <BsLinkedin />
+          <a href="https://wa.me/+237697724045" target="blank">
+            <BsWhatsapp />
           </a>
-          <a href="https://github.com" target="blank">
+          <a href="https://github.com/Mariekedjeunou" target="blank">
             <FaGithub />
           </a>
-          <a href="https://facebook.com" target="blank">
+          <a href="<a href='https://facebook.com/profile.php?id=100071856189879' target='blank'><FaFacebookF/> </a>
+" target="blank">
             <FaFacebookF />
           </a>
-          <a href="https://twitter.com" target="blank">
+          <a href="https://twitter.com/mariek_djeunou?t=nkEnB9Rydo4AgY33oRjERg&s=09" target="blank">
             <CgTwitter />
           </a>
         </div>

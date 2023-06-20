@@ -2,7 +2,7 @@ import React from 'react'
 import './header.css'
 import CTA from './CTA'
 import Me from '../../assets/2.jpg'
-
+import HeaderSocial from './Headersocial'
 
 
 function Header() {
@@ -13,7 +13,7 @@ function Header() {
       <h1>Djeunou Djeunou Marieke</h1>
       <h5 className='text-light'>cyber security analyst</h5>
       <CTA/>
-      
+      <HeaderSocial/>
       
       <div className='me'>
         <img src={Me} alt='my immage' ></img>
