@@ -30,7 +30,7 @@ const Contact = () => {
             <article className="contact__option">
               <MdOutlineEmail className="contact__option__icon" />
               <h4>Email</h4>
-              <h5>myEmail@gmail.com</h5>
+              <h5>mariekdjeunou@gmail.com</h5>
               <a
                 href="mailto:mariekdjeunou@gmail.com"
                 target="_blank"
@@ -43,7 +43,7 @@ const Contact = () => {
             <article className="contact__option">
               <FaFacebookF className="contact__option__icon" />
               <h4>Facebook</h4>
-              <h5>Profile</h5>
+              <h5>Mariek Djeunou</h5>
               <a
                 href="https://facebook.com/profile.php?id=100071856189879"
                 target="_blank"

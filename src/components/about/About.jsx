@@ -21,12 +21,12 @@ const About = () => {
               <article className="about__card">
                 <FaAward className="about__icon" />
                 <h5>Experience</h5>
-                <small>1+ Years</small>
+                <small>2 Years</small>
               </article>
               <article className="about__card">
                 <FiUsers className="about__icon" />
                 <h5>Clients</h5>
-                <small>3 world widely</small>
+                <small>4 world widely</small>
               </article>
               <article className="about__card">
                 <VscFolderLibrary className="about__icon" />
@@ -35,7 +35,7 @@ const About = () => {
               </article>
             </div>
             <p>
-              I am a young cameroonian studying computer engineering in level 2 at the 
+              I am a young cameroonian studying computer engineering in level 3 at the 
               Faculty of Engineering and Technology(FET) of the University of Buea . During
               my studies, i acquired skills in programming(C,C++), data communication, 
               database management, word processing, spreadsheets, cryptosystems and 
