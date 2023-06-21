@@ -9,16 +9,14 @@ import emailjs from 'emailjs-com'
 const Contact = () => {
   const form = useRef();
 
-  const sendEmail = (e) => {
-      e.preventDefault();
+      const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_2abibbf', 'template_oe9qx4g', form.current, '9ce_UmHFuBVZKuOg2')
+       
+        e.target.reset()
 
-      emailjs.sendForm('service_5vuauza', 'template_fdnnl56', form.current, 'EmSdUNQzQuxkUqGWx')
-      e.target.reset() 
-      .then((result) => {
-        console.log(result.text)
-      },(error) =>{
-        console.log(error.text);
-      });
+    
   };
     return (
       <section id="contact">
@@ -56,7 +54,7 @@ const Contact = () => {
             <article className="contact__option">
               <BsWhatsapp className="contact__option__icon" />
               <h4>Whatsapp</h4>
-              <h5>Direct message</h5>
+              <h5>+237 697724045  </h5>
               <a
                 href="https://wa.me/+237697724045"
                 target="_blank"
@@ -84,7 +82,7 @@ const Contact = () => {
               required
             ></textarea>
             <button type="submit" className="btn btn-primary">
-              Testified
+              Send
             </button>
           </form>
         </div>
