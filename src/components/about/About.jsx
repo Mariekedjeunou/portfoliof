@@ -35,18 +35,14 @@ const About = () => {
               </article>
             </div>
             <p>
-              I am a young software engineer trained at the Faculty of
-              Engineering and Technology(FET) of the University of Buea . I get
-              my B.eng in 2021. Being on demand for experience, I apply to
-              Camsol.io which accepts me and gives me the chance to work on real
-              business projects in order to gain experience. From July 2021 to
-              today, I learned technologies such as react, react native, in
-              short the MERN stack, I am still learning and counting on the
-              support of Camsol to increase my knowledge at end of being an
-              engineer not only graduate, but also qualified. I hold a
-              French-speaking baccalaureate D sexion, my university studies at
-              FET I did in English. I can therefore express myself in French and
-              in English (average).
+              I am a young cameroonian studying computer engineering in level 2 at the 
+              Faculty of Engineering and Technology(FET) of the University of Buea . During
+              my studies, i acquired skills in programming(C,C++), data communication, 
+              database management, word processing, spreadsheets, cryptosystems and 
+              cybersecurity. I am pursuing an online Huawei Datacom training in order to
+              obtain a certification. I hold a french-speaking baccalaureat C and i study
+              in English therefore I can moderately express myself in English and fluently
+              in French. 
             </p>
             <a href="#contact" className="btn btn-primary">
               Let's talk
