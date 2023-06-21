@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+ import React, { useState, useEffect } from "react";
 import { BsPatchCheckFill } from "react-icons/bs";
 import axios from "axios";
 
@@ -17,21 +17,30 @@ const ListExperiences = () => {
   };
   return data.map((d) => {
     return (
-      <div key={d._id} className="experience__backend">
-        <h3>{d.title}</h3>
+      <div className="experience__programming">
+        <h3>Languages programming</h3>
         <h4 className="experience_description">{d.description}</h4>
         <div className="experience__content">
-          {d.skills.map((s) => {
-            return (
-              <article key={s._id} className="experience__details">
+              <article className="experience__details">
                 <BsPatchCheckFill className="experience__details__icon" />
-                <div className="title__level">
-                  <h4>{s.name}</h4>
-                <small className="text-light">{s.level}</small>
-                </div>
+                  <h4>C</h4>
+                <small className="text-light">Experienced</small>
               </article>
-            );
-          })}
+              <article className="experience__details">
+                <BsPatchCheckFill className="experience__details__icon" />
+                  <h4>C++</h4>
+                <small className="text-light">Experienced</small>
+              </article>
+              <article className="experience__details">
+                <BsPatchCheckFill className="experience__details__icon" />
+                  <h4>JAVA</h4>
+                <small className="text-light">Experienced</small>
+              </article>
+              <article className="experience__details">
+                <BsPatchCheckFill className="experience__details__icon" />
+                  <h4>PYTHON</h4>
+                <small className="text-light">Started</small>
+              </article>
         </div>
       </div>
     );
