@@ -46,6 +46,8 @@ const Contact = () => {
 
               <h5>Profile</h5>
 
+              <h5>Mariek Djeunou</h5>
+
               <a
                 href="https://facebook.com/profile.php?id=100071856189879"
                 target="_blank"

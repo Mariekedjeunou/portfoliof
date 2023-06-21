@@ -37,8 +37,6 @@ const About = () => {
             <p>
 
               I am a young cameroonian studying computer engineering in level 3 at the 
-
-              I am a young cameroonian studying computer engineering in level 2 at the 
               Faculty of Engineering and Technology(FET) of the University of Buea . During
               my studies, i acquired skills in programming(C,C++), data communication, 
               database management, word processing, spreadsheets, cryptosystems and 
